@@ -1,0 +1,96 @@
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(164, 146, 162, 0.1)), to(rgba(164, 146, 162, 0.7))), url(../images/dunePlants.jpeg);
+  background-image: linear-gradient(rgba(164, 146, 162, 0.1), rgba(164, 146, 162, 0.7)), url(../images/dunePlants.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.hero .calloutContainer {
+  height: 150px;
+  width: 1200px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 50px;
+}
+.hero .calloutContainer .callout {
+  color: white;
+  font-family: Inconsolata;
+  font-size: 70px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.hero .calloutContainer .myName {
+  color: white;
+  font-family: Inconsolata;
+  font-size: 30px;
+  margin-left: 90px;
+}
+
+.intro {
+  height: 275px;
+  width: 100%;
+  background-color: rgb(164, 146, 162);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.intro .info1 {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border-color: black;
+  border: 3px solid;
+  background-color: antiquewhite;
+  background-image: url(../images/charlesDeam.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro .info2 {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border-color: black;
+  border: 3px solid;
+  background-color: antiquewhite;
+  background-image: url(../images/manistee.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro .info3 {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border-color: black;
+  border: 3px solid;
+  background-color: antiquewhite;
+  background-image: url(../images/beaverCreek.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro .info4 {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border-color: black;
+  border: 3px solid;
+  background-color: antiquewhite;
+  background-image: url(../images/juniperPrairie.jpeg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

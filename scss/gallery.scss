@@ -1,0 +1,571 @@
+.galleryCategory{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(164, 146, 162);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .cat1 {
+        height: 225px;
+        width: 225px;
+        border-radius: 50%;
+        border-color: black;
+        border: 3px solid;
+        background-color:antiquewhite;
+        background-image: url(../images/bugs1.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // margin-left: 70px;
+    }
+    .cat2 {
+        height: 225px;
+        width: 225px;
+        border-radius: 50%;
+        border-color: black;
+        border: 3px solid;
+        background-color:antiquewhite;
+        background-image: url(../images/mushrooms1.PNG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cat3 {
+        height: 225px;
+        width: 225px;
+        border-radius: 50%;
+        border-color: black;
+        border: 3px solid;
+        background-color:antiquewhite;
+        background-image: url(../images/cave1.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cat4 {
+        height: 225px;
+        width: 225px;
+        border-radius: 50%;
+        border-color: black;
+        border: 3px solid;
+        background-color:antiquewhite;
+        background-image: url(../images/plants1.PNG);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.bugs{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    
+    .bugTitle{
+        height: 70px;
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    .bugTitleText{
+        height: 50px;
+        color: white;
+        font-size: 40px;
+        margin-top: 90px;
+        // background-color: aquamarine;
+    }
+    }
+.bugContainer{
+    height: 700px;
+    width: 1300px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    .bug1 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug2 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug3 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug4 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug5 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug6 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug7 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug8 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug9 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bug10 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+}
+.mushrooms{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    .mushroomTitle{
+        height: 70px;
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    .mushroomTitleText{
+        height: 50px;
+        color: white;
+        font-size: 40px;
+        margin-top: 90px;
+        // background-color: aquamarine;
+    }
+    }
+.mushroomContainer{
+    height: 700px;
+    width: 1300px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    .mushroom1 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom2 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom3 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom4 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom5 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom6 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom7 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom8 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom9 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mushroom10 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+}
+.caves{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    .caveTitle{
+        height: 70px;
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    .caveTitleText{
+        height: 50px;
+        color: white;
+        font-size: 40px;
+        margin-top: 90px;
+        // background-color: aquamarine;
+    }
+    }
+.caveContainer{
+    height: 700px;
+    width: 1300px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    .cave1 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave2 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave3 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave4 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave5 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave6 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave7 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave8 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave9 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cave10 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+}
+.plants{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    .plantTitle{
+        height: 70px;
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    .plantTitleText{
+        height: 50px;
+        color: white;
+        font-size: 40px;
+        margin-top: 90px;
+        // background-color: aquamarine;
+    }
+    }
+.plantContainer{
+    height: 700px;
+    width: 1300px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    .plant1 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant2 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant3 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant4 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant5 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant6 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant7 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant8 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant9 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .plant10 {
+        height: 225px;
+        width: 225px;
+        border-radius: 5%;
+        border-color: black;
+        border: 3px solid;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+}

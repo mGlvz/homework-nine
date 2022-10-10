@@ -1,0 +1,62 @@
+.about {
+  height: 850px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(164, 146, 162, 0.8)), to(rgba(164, 146, 162, 0.1))), url(../images/beachHero.jpeg);
+  background-image: linear-gradient(rgba(164, 146, 162, 0.8), rgba(164, 146, 162, 0.1)), url(../images/beachHero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+.about .aboutContainer {
+  height: 500px;
+  width: 1300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.about .aboutContainer .aboutImage {
+  height: 400px;
+  width: 400px;
+  background-color: aqua;
+  border-radius: 5%;
+  background-image: url(../images/me.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about .aboutContainer .aboutContentContainer {
+  height: 400px;
+  width: 600px;
+}
+.about .aboutContainer .aboutContentContainer .aboutTitle {
+  height: 50px;
+  width: 300px;
+  color: white;
+  font-family: Inconsolata;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.about .aboutContainer .aboutContentContainer .aboutContent {
+  color: white;
+  font-size: 21px;
+  font-family: Inconsolata;
+  margin-left: 20px;
+  margin-top: 5px;
+}

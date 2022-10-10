@@ -1,0 +1,33 @@
+.map .mapContentContainer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(164, 146, 162);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.map .mapContentContainer .mapContent {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.map .mapContentContainer .mapContent .words {
+  color: white;
+  font-size: 25px;
+  font-family: Inconsolata;
+}

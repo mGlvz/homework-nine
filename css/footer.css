@@ -1,0 +1,23 @@
+footer {
+  height: 50px;
+  width: 1440px;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+}
+footer .copyright {
+  font-size: 15px;
+  color: aliceblue;
+}
+footer .terms {
+  font-size: 15px;
+  color: aliceblue;
+}

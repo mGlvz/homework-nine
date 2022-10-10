@@ -1,0 +1,25 @@
+.map{
+    
+    .mapContentContainer{
+        height: 100px;
+        width: 100%;
+        background-color: rgb(164, 146, 162);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .mapContent{
+            height: 60px;
+            width: 100%;
+            background-color: rgb(0, 0, 0,.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .words{
+                color: white;
+                font-size: 25px;
+                font-family: Inconsolata;
+            }
+        }
+    }
+}
+
